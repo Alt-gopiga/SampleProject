@@ -1,0 +1,30 @@
+[
+	{
+		"id": "1",
+		"testName": "valid Survey",
+		"surveyName": "Survey one",
+		"surveyType": "Service request survey",
+		"effective_year": "2020",
+		"effective_month": "Sep",
+		"effective_date": "14",
+		"expiry_year": "2020",
+		"expiry_month": "Sep",
+		"expiry_date": "14",
+		"surveyCutoff": "10",
+		"expected": true
+	},
+	{
+		"id": "2",
+		"testName": "valid Survey",
+		"surveyName": "Survey one",
+		"surveyType": "Store survey",
+		"effective_year": "2020",
+		"effective_month": "Sep",
+		"effective_date": "14",
+		"expiry_year": "2020",
+		"expiry_month": "Sep",
+		"expiry_date": "14",
+		"surveyCutoff": "10",
+		"expected": true
+	}
+]

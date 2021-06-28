@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Catalina_Admin]">
+  <listeners>
+    <listener class-name="com.catalina.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Catalina test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.catalina.tetcases.TC_AddFSV">
+        <methods>
+          <include name="terdown"/>
+          <include name="addfsv"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.catalina.tetcases.TC_AddFSV -->
+    </classes>
+  </test> <!-- Catalina test(failed) -->
+</suite> <!-- Failed suite [Catalina_Admin] -->

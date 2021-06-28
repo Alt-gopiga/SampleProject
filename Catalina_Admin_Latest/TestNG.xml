@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Catalina_Admin">
+
+
+    <listeners><listener class-name="com.catalina.utilities.Reporting"></listener></listeners>  
+	
+	
+	<test name="Catalina test">
+	
+	
+		<parameter name="browser" value="chrome" />
+		<!--<parameter name = "browser" value="firefox"/>-->
+		<!--<parameter name = "browser" value="ie"/> -->
+	
+		<classes>
+			<!-- <class name="com.catalina.tetcases.TC_LoginTest_001"></class> -->
+			<!-- <class name="com.catalina.tetcases.TC_LoginDDT_002"></class> -->
+			<!-- <class name="com.catalina.tetcases.TC_AddUser"></class> -->
+			<!-- <class name="com.catalina.tetcases.TC_AddFSV"></class> -->
+			<!-- <class name="com.catalina.tetcases.TC_SearchUser"></class> -->
+			<!-- <class name="com.catalina.tetcases.TC_AddStore"></class> -->
+			<!-- <class name="com.catalina.tetcases.TC_CreateSurvey"></class> -->
+		</classes>
+		
+	</test>
+</suite>

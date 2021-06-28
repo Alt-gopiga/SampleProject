@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Catalina_Admin" duration-ms="90325" started-at="2020-09-14T20:51:33 IST" finished-at="2020-09-14T20:53:03 IST">
+    <groups>
+    </groups>
+    <test name="Catalina test" duration-ms="90325" started-at="2020-09-14T20:51:33 IST" finished-at="2020-09-14T20:53:03 IST">
+      <class name="com.catalina.tetcases.TC_AddStore">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.catalina.tetcases.TC_AddStore@46daef40]" name="setup" is-config="true" duration-ms="19018" started-at="2020-09-14T20:51:33 IST" finished-at="2020-09-14T20:51:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:1, instance:com.catalina.tetcases.TC_AddStore@46daef40]" name="login" duration-ms="8313" started-at="2020-09-14T20:51:52 IST" finished-at="2020-09-14T20:52:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="NavigateToAddStore()[pri:2, instance:com.catalina.tetcases.TC_AddStore@46daef40]" name="NavigateToAddStore" duration-ms="3224" started-at="2020-09-14T20:52:01 IST" finished-at="2020-09-14T20:52:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToAddStore -->
+        <test-method status="PASS" signature="addstore(com.catalina.model.AddStoreModel)[pri:3, instance:com.catalina.tetcases.TC_AddStore@46daef40]" name="addstore" duration-ms="10514" started-at="2020-09-14T20:52:04 IST" data-provider="AddStoreData" finished-at="2020-09-14T20:52:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.catalina.model.AddStoreModel@58dea0a5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addstore -->
+        <test-method status="PASS" signature="addstore(com.catalina.model.AddStoreModel)[pri:3, instance:com.catalina.tetcases.TC_AddStore@46daef40]" name="addstore" duration-ms="12193" started-at="2020-09-14T20:52:15 IST" data-provider="AddStoreData" finished-at="2020-09-14T20:52:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.catalina.model.AddStoreModel@4925f4f5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addstore -->
+        <test-method status="PASS" signature="addstore(com.catalina.model.AddStoreModel)[pri:3, instance:com.catalina.tetcases.TC_AddStore@46daef40]" name="addstore" duration-ms="11970" started-at="2020-09-14T20:52:27 IST" data-provider="AddStoreData" finished-at="2020-09-14T20:52:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.catalina.model.AddStoreModel@2b97cc1f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addstore -->
+        <test-method status="PASS" signature="addstore(com.catalina.model.AddStoreModel)[pri:3, instance:com.catalina.tetcases.TC_AddStore@46daef40]" name="addstore" duration-ms="11938" started-at="2020-09-14T20:52:39 IST" data-provider="AddStoreData" finished-at="2020-09-14T20:52:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.catalina.model.AddStoreModel@35835fa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addstore -->
+        <test-method status="PASS" signature="addstore(com.catalina.model.AddStoreModel)[pri:3, instance:com.catalina.tetcases.TC_AddStore@46daef40]" name="addstore" duration-ms="11979" started-at="2020-09-14T20:52:51 IST" data-provider="AddStoreData" finished-at="2020-09-14T20:53:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.catalina.model.AddStoreModel@2264e43c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addstore -->
+        <test-method status="PASS" signature="terdown()[pri:0, instance:com.catalina.tetcases.TC_AddStore@46daef40]" name="terdown" is-config="true" duration-ms="643" started-at="2020-09-14T20:53:03 IST" finished-at="2020-09-14T20:53:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+      </class> <!-- com.catalina.tetcases.TC_AddStore -->
+    </test> <!-- Catalina test -->
+  </suite> <!-- Catalina_Admin -->
+</testng-results>

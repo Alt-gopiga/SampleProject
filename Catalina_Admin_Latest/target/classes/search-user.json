@@ -1,0 +1,22 @@
+[
+	{
+		"id": "1",
+		"testName": "Invalid Search",
+		"firstName": "Deepa",
+		"lastName": "see",
+		"phoneNumber": "1234567890",
+		"status": "Active",
+		"selectFsv": "1212",
+		"expected": false
+	},
+	{
+		"id": "2",
+		"testName": "Valid Search",
+		"firstName": "Deepa",
+		"lastName": "dhanu",
+		"phoneNumber": "1234567890",
+		"status": "Active",
+		"selectFsv": "1212",
+		"expected": true
+	}
+]
